@@ -33,7 +33,6 @@ const Header = () => {
               onClick={() => setMenuOpened(false)}
               activeClass="active"
               to="home"
-              span={true}
               smooth={true}
             >
               Home
@@ -43,29 +42,18 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="programs"
-              span={true}
               smooth={true}
             >
               Programs
             </Link>
           </li>
           <li onClick={() => setMenuOpened(false)}>
-            <Link
-              onClick={() => setMenuOpened(false)}
-              to="whyUs"
-              span={true}
-              smooth={true}
-            >
+            <Link onClick={() => setMenuOpened(false)} to="whyUs" smooth={true}>
               Why us
             </Link>
           </li>
           <li onClick={() => setMenuOpened(false)}>
-            <Link
-              onClick={() => setMenuOpened(false)}
-              to="plans"
-              span={true}
-              smooth={true}
-            >
+            <Link onClick={() => setMenuOpened(false)} to="plans" smooth={true}>
               Plans
             </Link>
           </li>
@@ -73,7 +61,6 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="testimonials"
-              span={true}
               smooth={true}
             >
               Testimonials
