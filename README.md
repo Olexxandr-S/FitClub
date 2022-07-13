@@ -1,2 +1,2 @@
 # FitClub
-https://fitclubolexxandr.pages.dev/
+https://fitclubolexxandrs.pages.dev/
